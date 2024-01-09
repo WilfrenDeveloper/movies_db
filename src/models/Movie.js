@@ -17,7 +17,7 @@ const Movie = sequelize.define('movie', {
     releaseYear: {
         type: DataTypes.INTEGER,
         allowNull: false
-    },
+    }
 });
 
 module.exports = Movie;
